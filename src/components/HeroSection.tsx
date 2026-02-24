@@ -70,11 +70,24 @@ export default function HeroSection() {
             >
               <div className="space-y-4">
                 <p className="text-3xl font-light text-white md:text-4xl lg:text-5xl">
-                  Алексей Иванов
+                  Вайб-кодер
                 </p>
                 <p className="text-xl font-light text-white/80 md:text-2xl">
-                  Креативный директор | Дизайнер
+                  Создаю приложения для стартапов · Быстро и со вкусом
                 </p>
+                <p className="text-base text-white/60 max-w-md leading-relaxed">
+                  Превращаю идеи в рабочие продукты. MVP за недели, не месяцы. Помогаю стартапам запуститься и проверить гипотезы.
+                </p>
+                <div className="pt-2">
+                  <a
+                    href="https://t.me/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block bg-white text-black px-8 py-3 text-sm font-medium tracking-widest uppercase transition-opacity hover:opacity-80"
+                  >
+                    Обсудить проект
+                  </a>
+                </div>
                 <div className="flex gap-6 pt-4">
                   <a
                     href="https://t.me/"
